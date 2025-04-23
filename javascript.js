@@ -37,9 +37,9 @@ var viewer = pannellum.viewer('panorama', {
         "vaov":180,
         "minPitch":-25,
         "maxPitch": 25,
-        "yaw": 0,
+        "yaw": -2,
         "compass":true,
-        "northOffset":0
+        "northOffset":2
       },  
     }
 });
@@ -100,7 +100,7 @@ function updateDegreeScale() {
     var initialYaw = {
       "image-1": 0,
       "image-2": 0,
-      "image-3": 0
+      "image-3": -2
     
     };
   
